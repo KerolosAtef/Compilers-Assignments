@@ -10,7 +10,7 @@ javac -cp "( ANTLRPATH HERE )\antlr-4.8-complete.jar;" yourPath/Main.java yourPa
  
 
 //Run the file with the parameter
-javac -cp "( ANTLRPATH HERE )\antlr-4.8-complete.jar;" java Main good.cl
+java -cp "( ANTLRPATH HERE )\antlr-4.8-complete.jar;" Main good.cl
 ```
 
  
