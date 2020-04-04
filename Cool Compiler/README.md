@@ -1,7 +1,5 @@
 # Lexer Implementation
 
- 
-
 The project team members are :
 1. Kerolos Atef Ibrahim
 2. Toqa Magdy Fouad
@@ -24,12 +22,12 @@ The 4 other phases are still under development.
 The Main.java file can invoked from the command line (cmd) with the line and takes the input file (ex. input.cl)
 ```
 //Compile the file
-javac Main.java input.cl
+javac -cp "( ANTLRPATH HERE )\antlr-4.8-complete.jar;" src/Main.java src/coolLexer.java
 
  
 
-//Run the file
-java Main
+//Run the file with the parameter
+java Main good.cl
 ```
 
  
