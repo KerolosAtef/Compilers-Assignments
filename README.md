@@ -13,9 +13,10 @@
 
 The project is split into 5 phases:
 1. Lexical Analysis
+2. Parser
 
 
-The 4 other phases are still under development.
+The 3 other phases are still under development.
 
 # Each Phase has a README file of details
 
