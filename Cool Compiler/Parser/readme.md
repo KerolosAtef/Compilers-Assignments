@@ -25,13 +25,17 @@ The process was that we looked at diffrenet examples of the COOL language to try
 As we liked the test files from the previous stage we didn't feel we needed to change them.
 
 1) The good.cl file was choosen to contain as many tokens as possible with alot of keywords. (The file contains code to check if a text is a palindrome or not) 
+If we run this from the cmd you should get this output <br>
+![CMD Run](Screenshots/Succes.png) <br>
+And a new out.cst file is created <br> 
+![TextFile](Screenshots/out.PNG)<br>
 2) The good.cl-lex is the file containing the tokens from the previous lexer stage
-
- 
-
-2) The bad.cl file contains the same code with some extra charachters that wouldn't be recogonized by our lexical analyzer. 
-The only thing that we thought of and wouldn't be recognized is the special charachters (!, #, etc..)
-
-#Documentation
+3) The bad.cl file contains the same code with some extra charachters that wouldn't be recogonized by our lexical analyzer. 
+The only thing that we thought of and wouldn't be recognized is the special charachters (!, #, etc..) <br>
+If the file has syntax error then you would LEXER errors
+![Syntax Errors](Screenshots/error1.PNG)<br>
+If it is tokenized successfully but has some errors that don't follow the language rules you would get an error like <br>
+![Syntax Errors](Screenshots/error2.PNG)<br>
+# Documentation :
 We used Doxygen to generate a well structured documentaion for the Main.java file as well as the generated files by the ANTLR tool.
 To view the documetion open the folder Documentation and open index.html the rest is easy to figure out.
